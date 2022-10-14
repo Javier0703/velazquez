@@ -1,30 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 * {
     margin: 0;
+    font-family: Montserrat, sans-serif;
 }
 
 header{
-    background-color: green;
     height: 100px;
     width: 100%;
     margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 100;
+}
+
+h2{
+    padding-top: 30px;
 }
 
 main{
-    background-color: yellow;
     width: 100%;
     display: flex;
 }
 
 aside{
-    background-color: red;
-    height: calc(100% - 100px);
     width: 200px;
+    height: 100%;
     overflow-y: auto;
+    position: absolute;
+    overflow: auto;
+}
+
+aside img{
+    width: 150px;
+    height: 188px;
+    margin-left: 15px;
+    filter: grayscale(100%);
+    transition: 1.5s;
+}
+
+aside img:hover{
+    filter: grayscale(0%);
 }
 
 section{
     display: flex;
     width: 100%;
+    margin-left: 200px;
 }
 
 article{
