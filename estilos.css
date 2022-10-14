@@ -8,7 +8,6 @@
 header{
     height: 100px;
     width: 100%;
-    margin-top: 0px;
     text-align: center;
     justify-content: center;
     font-weight: 100;
@@ -43,15 +42,31 @@ aside img:hover{
     filter: grayscale(0%);
 }
 
+.tabs_toggle.is-active{
+    filter: grayscale(0%);
+}
+
 section{
-    display: flex;
+    display: none;
     width: 100%;
     margin-left: 200px;
+}
+
+section.is-active{
+    display: block;
 }
 
 article{
     width: 50%;
     height: 100%;
+    display: flex;
 }
+
+article table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+
 
 

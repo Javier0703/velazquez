@@ -9,23 +9,28 @@
     <header>
         <h2>Cuadros de Velázquez</h2>
     </header>
-    <main>
-        <aside>
-            <img src="/img/breda-mini.jpg" alt="Breda"> <br> <br>
-            <img src="/img/venus-mini.jpg" alt="Venus"> <br> <br>
-            <img src="/img/meninas-mini.jpg" alt="Meninas"> <br> <br>
-            <img src="/img/vulcano-mini.jpg" alt="Vulcano"> <br> <br>
-            <img src="/img/inocencio-mini.jpg" alt="Inocencio"> <br> <br>
+    <main class="tabs">
+        <aside class="tabs_head">
+            <img class="tabs_toggle is-active" src="/img/breda-mini.jpg" alt="Breda"> <br> <br>
+            <img class="tabs_toggle" src="/img/venus-mini.jpg" alt="Venus"> <br> <br>
+            <img class="tabs_toggle" src="/img/meninas-mini.jpg" alt="Meninas"> <br> <br>
+            <img class="tabs_toggle" src="/img/vulcano-mini.jpg" alt="Vulcano"> <br> <br>
+            <img class="tabs_toggle" src="/img/inocencio-mini.jpg" alt="Inocencio"> <br> <br>
         </aside>
-        <section>
-            <article class="ar1">
-                Hola
-            </article>
-            <article class="ar2">
-                Hola
-            </article>
-        </section>
+        <div class="tabs_body">
+            <section class="tabs_content is-active">
+                Hola1
+            </section>
+            <section class="tabs_content">Hola2</section>
+            <section class="tabs_content">Hola3</section>
+            <section class="tabs_content">Hola4</section>
+            <section class="tabs_content">Hola5</section>
+        </div>
+
     </main>
 
+
+
+<script src="main.js"></script>
 </body>
 </html>
