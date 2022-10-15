@@ -99,6 +99,27 @@ article div button:hover{
     background-color: #04c5c0;
 }
 
+.popup-imagen{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgb(0,0,0);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup-imagen img{
+    position: absolute;
+    object-fit: cover;
+    display: block;
+    max-width: 40%;
+    max-height: 99%;
+    margin-left: 30%;
+}
+
+
+
 
 
 
