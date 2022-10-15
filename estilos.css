@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -15,6 +16,7 @@ header{
 
 h2{
     padding-top: 30px;
+    font-weight: 200;
 }
 
 main{
@@ -24,8 +26,7 @@ main{
 
 aside{
     width: 200px;
-    height: 100%;
-    overflow-y: auto;
+    height: calc(100% - 100px);
     position: absolute;
     overflow: auto;
 }
@@ -35,7 +36,7 @@ aside img{
     height: 188px;
     margin-left: 15px;
     filter: grayscale(100%);
-    transition: 1.5s;
+    transition: 1s;
 }
 
 aside img:hover{
@@ -48,7 +49,7 @@ aside img:hover{
 
 section{
     display: none;
-    width: 100%;
+    width: calc(100% - 200px);
     margin-left: 200px;
 }
 
@@ -57,14 +58,45 @@ section.is-active{
 }
 
 article{
-    width: 50%;
     height: 100%;
     display: flex;
 }
 
-article table{
+article div{
+    width: 50%;
+}
+
+.info{
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px
+}
+
+article div img{
+    object-fit: cover;
     width: 100%;
-    table-layout: fixed;
+}
+
+article div h1{
+    font-size: 30px;
+    font-weight: 700; !important;
+}
+
+.desc{
+    font-size: 16px;
+    text-align: left;
+}
+
+article div button{
+    font-size: 16px;
+    background-color: #97c1c0;
+    border: 0px;
+    padding: 13px 35px ;
+    border-radius: 10px;
+}
+
+article div button:hover{
+    background-color: #04c5c0;
 }
 
 
