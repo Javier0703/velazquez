@@ -111,11 +111,12 @@ article div button:hover{
 
 .popup-imagen img{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
     object-fit: cover;
-    display: block;
-    max-width: 40%;
-    max-height: 99%;
-    margin-left: 30%;
 }
 
 

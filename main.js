@@ -29,8 +29,8 @@ document.querySelector('.popup-imagen').onclik = () => {
 
 function cambiar() {
     var imagen = document.getElementById("popup");
-    if(imagen.style.display  === "none"){imagen.style.display  = "block";     }
-    else {imagen.style.display  = "none";
-    }};
+    if(imagen.style.display  === "none")
+        {imagen.style.display  = "block"}
+        else {imagen.style.display  = "none"}};
 
 
